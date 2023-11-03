@@ -1,3 +1,47 @@
 body {
-    background-color: ;
+    background-color: black;
+}
+header {
+    background-color: #1E1E1E;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 200px;
+    
+}
+.foto {
+    width: 200px;
+    border-radius: 30px;
+    width: 320px;
+    height: 450px;
+}
+a:hover{
+    color: blue;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    padding: 10px;
+    margin-right: 200px;
+    
+}
+div {
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 350px;
+}
+footer{
+    background-color: #1E1E1E;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
